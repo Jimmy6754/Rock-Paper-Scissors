@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="Assits/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Assits/App.css" />
+    <script src="Assits/Javascript/main.js" defer></script>
+
+    <title>Frontend Mentor | Rock, Paper, Scissors</title>
+  </head>
+  <body>
+    <!-- rules -->
+    <div class="darkBG disabled"></div>
+    <div class="rules-page disabled">
+      <h1 id="ruleText">Rules</h1>
+      <img id="rulesImg" src="Assits/images/image-rules.svg" />
+      <button id="exitBtn"><img src="Assits/images/icon-close.svg" /></button>
+    </div>
+    <!-- rules -->
+
+    <div id="background-gradient">
+      <div id="information-Bar">
+        <img id="logo" src="Assits/images/logo.svg" alt="" />
+        <div id="score-Board">
+          <p id="score-Text">SCORE</p>
+          <h1 id="score">0</h1>
+        </div>
+      </div>
+      <div class="choose">
+        <img
+          class="center traingle"
+          src="Assits/images/bg-triangle.svg"
+          alt=""
+        />
+        <div class="paper-start paper">
+          <div class="circle">
+            <img class="center" src="Assits/images/icon-paper.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="Scissors-start scissors">
+          <div class="circle">
+            <img class="center" src="Assits/images/icon-scissors.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="rock-start rock">
+          <div class="circle">
+            <img class="center" src="Assits/images/icon-rock.svg" alt="" />
+          </div>
+        </div>
+      </div>
+      <button id="rules">RULES</button>
+
+
+
+
+      <div class="result-screen disabled">
+        <div class="resultDiv">
+          <h2>You Picked</h2>
+          <div class="circle playercircle">
+            <div class="circleBG">
+              <img class="playerSymb" src=""/>
+            </div>
+          </div>
+        </div>
+        <div class="resultDiv">
+          <h2>The House Picked</h2>
+          <div class="circle botcircle">
+            <div class="circleBG">
+              <img class="botSymb" src=""/>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  
+        <h1 class="stats disabled"></h1>
+        <button class="playAgainBTN disabled">Play Again</button>
+    
+
+
+
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Mohamed Gamal</a>.
+      </div>
+    </div>
+  </body>
+</html>
